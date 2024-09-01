@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resturent Landing Page</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  <link rel="stylesheet" href="../src/styles/restaurant.css">
+</head>
+
+<body class="container-fluid">
+  <header>
+    <div class="container">
+      <h1 class="logo">Veg Zayka Restaurant</h1>
+    </div>
+  </header>
+  <nav class="header1">
+    <div>
+      <image class="img" src="../Public/images/raginilogo.jpg" width="250px" height="100px">
+    </div>
+    <div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="cart1"><span class="bi bi-cart"></span></div>
+  </nav>
+  <div class="carousel slide" data-bs-ride="carousel" id="banner">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="../public/images/food1.jpg" class="w-100" height="300">
+      </div>
+      <div class="carousel-item">
+        <img src="../public/images/food2.jpg" class="w-100" height="300">
+      </div>
+      <div class="carousel-item">
+        <img src="../public/images/food3.jpg" class="w-100" height="300">
+      </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#banner">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-base-slide="next" data-bs-target="#banner">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to Veg Zayka Restaurant</h2>
+      <p style="color:rgb(60, 255, 0)">Experience the best veg zayka restaurant town</p>
+      <button onclick="orderNow()">Order Now</button>
+    </div>
+  </section>
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-item">
+        <h3>DOSA</h3>
+        <p>Onion Dosa.</p>
+        <p>Massala Dosa</p>
+        <p>Paneer Dosa</p>
+      </div>
+      <div class="menu-item">
+        <h3>PIZZA</h3>
+        <p>Corn Pizza.</p>
+        <p>Cheese n corn Pizza</p>
+      </div>
+      <div class="menu-item">
+        <h3>PANEER</h3>
+        <p>Paneer butter massala</p>
+        <p>Paneer Chili</p>
+        <p>Paneer khadai </p>
+      </div>
+      <div class="menu-item">
+        <h3>Cake </h3>
+        <p>Decadent chocolate cake with a molten center.</p>
+        <p>Vanilla It is delisious cake.</p>
+      </div>
+    </div>
+  </section>
+  <footer id="contact">
+    <div class="container">
+      <p><span class="bi bi-phone-fill"></span>Contact US+8252223281| ragi13012003@gmail.com</p>
+      <p>2024 . All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="../src/scripts/restaurant.js"></script>
+</body>
+
+</html>
